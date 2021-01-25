@@ -348,11 +348,15 @@ svg {
 .home {
 	vertical-align: middle;
 	font-size: 2em;
+	display: block;
+	height: 50px;
 }
 
 .nolink {
 	text-decoration: none;
 	color: #aaaaaa;
+	display: block;
+	height: inherit;
 }
 
 .nolink:hover {
@@ -361,4 +365,5 @@ svg {
 
 .noblock {
 	display: inline-block;
+	vertical-align: middle;
 }
