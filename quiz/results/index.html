@@ -35,11 +35,341 @@
         var seventh = getUrlVars()["7"];
         var eighth = getUrlVars()["8"];
         var ninth = getUrlVars()["9"];
+
+        var all = ""+first+second+third+fourth+fifth+sixth+seventh+eighth+ninth;
+
+        var firsttrue = "a";
+        var secondtrue = "a";
+        var thirdtrue = "a";
+        var fourthtrue = "a";
+        var fifthtrue = "a";
+        var sixthtrue = "a";
+        var seventhtrue = "a";
+        var eighthtrue = "a";
+        var ninthtrue = "a";
+
+        var rlytrue = 0;
+        var rlyfalse = 0;
+
+        if (first == firsttrue) {
+            var firstreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var firstreallytrue = "❌";
+        }
+        if (second == secondtrue) {
+            var secondreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var secondreallytrue = "❌";
+        }
+        if (third == thirdtrue) {
+            var thirdreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var thirdreallytrue = "❌";
+        }
+        if (fourth == fourthtrue) {
+            var fourthreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var fourthreallytrue = "❌";
+        }
+        if (fifth == fifthtrue) {
+            var fifthreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var fifthreallytrue = "❌";
+        }
+        if (sixth == sixthtrue) {
+            var sixthreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var sixthreallytrue = "❌";
+        }
+        if (seventh == seventhtrue) {
+            var seventhreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var seventhreallytrue = "❌";
+        }
+        if (eighth == eighthtrue) {
+            var eighthreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var eighthreallytrue = "❌";
+        }
+        if (ninth == ninthtrue) {
+            var ninthreallytrue = "✅";
+            var rlytrue = rlytrue + 1;
+        } else {
+            var ninthreallytrue = "❌";
+        }
+
+        var rlyfalse = 9 - rlytrue;
+
+        var a = 0;
+        var b = 0;
+        var c = 0;
+        var d = 0;
+
+        for (i = 0, i <= 9, i++) {
+            if (all[i] == "a") {
+                a++
+            } else if (all[i] == "b") {
+                b++
+            } else if (all[i] == "c") {
+                c++
+            } else if (all[i] == "d") {
+                d++
+            }
+        }
     </script>
-	<span class="centered hogwarts-font red-color middle">
-		<h1>
+	<span class="centered middle">
+		<h1 class="hogwarts-font light-gray twoem trans-back">
 			Harry-Potter-Quiz - Ergebnisse
 		</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="table-wrapper balsamiq-font">
+                            <table class="red-color-small">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Frage
+                                        </th>
+                                        <th>
+                                            Beschreibung
+                                        </th>
+                                        <th>
+                                            Antwort
+                                        </th>
+                                        <th>
+                                            Richtig
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 1
+                                        </td>
+                                        <td>
+                                            <script>document.write(first);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(firstreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 2
+                                        </td>
+                                        <td>
+                                            <script>document.write(second);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(secondreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 3
+                                        </td>
+                                        <td>
+                                            <script>document.write(third);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(thirdreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 4
+                                        </td>
+                                        <td>
+                                            <script>document.write(fourth);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(fourthreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 5
+                                        </td>
+                                        <td>
+                                            <script>document.write(fifth);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(fifthreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 6
+                                        </td>
+                                        <td>
+                                            <script>document.write(sixth);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(sixthreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 7
+                                        </td>
+                                        <td>
+                                            <script>document.write(seventh);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(seventhreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 8
+                                        </td>
+                                        <td>
+                                            <script>document.write(eighth);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(eighthreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td>
+                                            Lorem Ipsum für Frage 9
+                                        </td>
+                                        <td>
+                                            <script>document.write(ninth);</script>
+                                        </td>
+                                        <td>
+                                            <script>document.write(ninthreallytrue);</script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <svg viewBox="-1 -1 2 2" style="transform: rotate(-90deg)" id="svgone">
+                        </svg>
+                        <script type="text/javascript">
+                            const svgEl = document.getElementById('svgone');
+                            const slices = [
+                                { percent: rlytrue/9, color: '#77dd77' },
+                                { percent: rlyfalse/9, color: '#ff6961' },
+                            ];
+                            let cumulativePercent = 0;
+                            function getCoordinatesForPercent(percent) {
+                                const x = Math.cos(2 * Math.PI * percent);
+                                const y = Math.sin(2 * Math.PI * percent);
+                                return [x, y];
+                            }
+                            slices.forEach(slice => {
+                                const [startX, startY] = getCoordinatesForPercent(cumulativePercent);
+                                cumulativePercent += slice.percent;
+                                const [endX, endY] = getCoordinatesForPercent(cumulativePercent);
+                                const largeArcFlag = slice.percent > .5 ? 1 : 0;
+                                const pathData = [
+                                    `M ${startX} ${startY}`,
+                                    `A 1 1 0 ${largeArcFlag} 1 ${endX} ${endY}`,
+                                    `L 0 0`,
+                                ].join(' ');
+                                const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                                pathEl.setAttribute('d', pathData);
+                                pathEl.setAttribute('fill', slice.color);
+                                svgEl.appendChild(pathEl);
+                            });
+                        </script>
+                        <br><br>
+                        <div class="green-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("Richtig: "+rlytrue+" ("+Math.round(((rlytrue/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                        <div class="red-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("Falsch: "+rlyfalse+" ("+Math.round(((rlyfalse/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                    </td>
+                    <td>
+                        <svg viewBox="-1 -1 2 2" style="transform: rotate(-90deg)" id="svgtwo">
+                        </svg>
+                        <script type="text/javascript">
+                            const svgEl_ = document.getElementById('svgtwo');
+                            const slices_ = [
+                                { percent: a/9, color: '#ff0000' }, //red
+                                { percent: b/9, color: '#00ff00' }, //green
+                                { percent: c/9, color: '#ffff00' }, //yellow
+                                { percent: d/9, color: '#0000ff' }, //blue
+                            ];
+                            let cumulativePercent_ = 0;
+                            function getCoordinatesForPercent_(percent) {
+                                const x = Math.cos(2 * Math.PI * percent);
+                                const y = Math.sin(2 * Math.PI * percent);
+                                return [x, y];
+                            }
+                            slices_.forEach(slice_ => {
+                                const [startX_, startY_] = getCoordinatesForPercent_(cumulativePercent_);
+                                cumulativePercent_ += slice_.percent;
+                                const [endX_, endY_] = getCoordinatesForPercent_(cumulativePercent_);
+                                const largeArcFlag_ = slice_.percent > .5 ? 1 : 0;
+                                const pathData_ = [
+                                    `M ${startX_} ${startY_}`,
+                                    `A 1 1 0 ${largeArcFlag_} 1 ${endX_} ${endY_}`,
+                                    `L 0 0`,
+                                ].join(' ');
+                                const pathEl_ = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                                pathEl_.setAttribute('d', pathData_);
+                                pathEl_.setAttribute('fill', slice_.color);
+                                svgEl_.appendChild(pathEl_);
+                            });
+                        </script>
+                        <br><br>
+                        <div class="green-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("A: "+a+" ("+Math.round(((a/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                        <div class="red-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("B: "+b+" ("+Math.round(((b/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                        <div class="green-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("C: "+c+" ("+Math.round(((c/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                        <div class="red-color-res balsamiq-font">
+                            <script type="text/javascript">document.write("D: "+d+" ("+Math.round(((d/9)+Number.EPSILON)*100)/100+"%)");</script>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
 	</span>
 </body>
 <!--42> I<3You <-->
