@@ -6,9 +6,6 @@ html {
 	background-position: center;
 }
 
-
-/* Button */
-
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -191,7 +188,6 @@ button,
   position: fixed;
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%, -50%);*/
-  right: :50%;
-  bottom: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
 }
