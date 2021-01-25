@@ -201,3 +201,7 @@ button.special:active,
 .hogwarts-font {
 	font-family: harry_pregular;
 }
+
+.larger {
+	size: 150%;
+}
