@@ -336,3 +336,7 @@ svg {
 .blue-strong-color-res {
 	color: #0000ff;
 }
+
+.back-box {
+	background-color: rgba(0,0,0,0.5);
+}
