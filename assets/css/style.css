@@ -211,7 +211,6 @@ button.special:active,
 
 .light-gray {
 	color: #aaaaaa;
-	font-size: 4em;
 	background-color: rgba(0,0,0,0.5);
 }
 
@@ -223,6 +222,10 @@ button.special:active,
 
 .red-color-small {
 	color: #ff6961;
+}
+
+.four-em {
+	font-size: 4em;
 }
 
 .middle {
