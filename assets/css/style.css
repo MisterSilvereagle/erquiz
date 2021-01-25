@@ -228,6 +228,10 @@ button.special:active,
 	font-size: 4em;
 }
 
+.three-em {
+	font-size: 3em;
+}
+
 .middle {
     text-align: center;
     vertical-align: middle;
