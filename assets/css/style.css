@@ -195,8 +195,14 @@ button.special:active,
     src: url('../font/harryp__-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .hogwarts-font {
 	font-family: harry_pregular;
+}
+
+.light-gray {
+	color: #aaaaaa;
 }
