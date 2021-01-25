@@ -320,3 +320,19 @@ svg {
 .red-color-res {
 	color: #ff6961;
 }
+
+.red-strong-color-res {
+	color: #ff0000;
+}
+
+.green-strong-color-res {
+	color: #00ff00;
+}
+
+.yellow-strong-color-res {
+	color: #ffff00;
+}
+
+.blue-strong-color-res {
+	color: #0000ff;
+}

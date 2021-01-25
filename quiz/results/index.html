@@ -36,7 +36,7 @@
         var eighth = getUrlVars()["8"];
         var ninth = getUrlVars()["9"];
 
-        var all = ""+first+second+third+fourth+fifth+sixth+seventh+eighth+ninth;
+        var all = ""+first+second+third+fourth+fifth+sixth+seventh+eighth+ninth+"";
 
         var firsttrue = "a";
         var secondtrue = "a";
@@ -113,7 +113,7 @@
         var c = 0;
         var d = 0;
 
-        for (i = 0, i <= 9, i++) {
+        for (i = 0; i <= 9; i++) {
             if (all[i] == "a") {
                 a++
             } else if (all[i] == "b") {
@@ -355,16 +355,16 @@
                             });
                         </script>
                         <br><br>
-                        <div class="green-color-res balsamiq-font">
+                        <div class="red-strong-color-res balsamiq-font">
                             <script type="text/javascript">document.write("A: "+a+" ("+Math.round(((a/9)+Number.EPSILON)*100)/100+"%)");</script>
                         </div>
-                        <div class="red-color-res balsamiq-font">
+                        <div class="green-strong-color-res balsamiq-font">
                             <script type="text/javascript">document.write("B: "+b+" ("+Math.round(((b/9)+Number.EPSILON)*100)/100+"%)");</script>
                         </div>
-                        <div class="green-color-res balsamiq-font">
+                        <div class="yellow-strong-color-res balsamiq-font">
                             <script type="text/javascript">document.write("C: "+c+" ("+Math.round(((c/9)+Number.EPSILON)*100)/100+"%)");</script>
                         </div>
-                        <div class="red-color-res balsamiq-font">
+                        <div class="blue-strong-color-res balsamiq-font">
                             <script type="text/javascript">document.write("D: "+d+" ("+Math.round(((d/9)+Number.EPSILON)*100)/100+"%)");</script>
                         </div>
                     </td>
