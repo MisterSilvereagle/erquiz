@@ -7,7 +7,7 @@ html.hog {
 }
 
 html.win {
-	background-image: url(../img/Hogwarts.jpg);
+	background-image: url(../img/Winkelgasse.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -216,4 +216,8 @@ button.special:active,
 .middle {
     text-align: center;
     vertical-align: middle;
+}
+
+.between-q {
+	height: 2em
 }
