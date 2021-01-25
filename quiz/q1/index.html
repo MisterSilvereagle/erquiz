@@ -10,15 +10,21 @@
 	</title>
 </head>
 <body>
+	<script type="text/javascript">
+        function answer(ans)
+        {
+        	window.location.href="../q2?1="+ans;
+        }
+	</script>
 	<span class="centered hogwarts-font red-color middle">
 		<h1>
 			Harry-Potter-Quiz - Frage 1
 		</h1>
-		<a href="../q2?1=a" class="button special hogwarts-font middle">Antwort A</a>
-		<a href="../q2?1=b" class="button hogwarts-font middle">Antwort B</a>
+		<a onclick="answer(a);" class="button special hogwarts-font middle">Antwort A</a>
+		<a onclick="answer(b);" class="button hogwarts-font middle">Antwort B</a>
 		<br><br>
-		<a href="../q2?1=c" class="button hogwarts-font middle">Antwort C</a>
-		<a href="../q2?1=d" class="button special hogwarts-font middle">Antwort D</a>
+		<a onclick="answer(c);" class="button hogwarts-font middle">Antwort C</a>
+		<a onclick="answer(d);" class="button special hogwarts-font middle">Antwort D</a>
 	</span>
 </body>
 <!--42> I<3You <-->

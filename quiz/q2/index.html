@@ -10,15 +10,38 @@
 	</title>
 </head>
 <body>
+	<script type="text/javascript">
+        // Get vars function.
+        function getUrlVars()
+        {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++)
+            {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+
+        // Get vars.
+        var first = getUrlVars()["1"];
+
+        function answer(ans)
+        {
+        	window.location.href="../q3?1="+first+"&2="+ans;
+        }
+    </script>
 	<span class="centered hogwarts-font red-color middle">
 		<h1>
 			Harry-Potter-Quiz - Frage 2
 		</h1>
-		<a href="../q3" class="button special hogwarts-font middle">Antwort A</a>
-		<a href="../q3" class="button hogwarts-font middle">Antwort B</a>
+		<a onclick="answer(a);" class="button special hogwarts-font middle">Antwort A</a>
+		<a onclick="answer(b);" class="button hogwarts-font middle">Antwort B</a>
 		<br><br>
-		<a href="../q3" class="button hogwarts-font middle">Antwort C</a>
-		<a href="../q3" class="button special hogwarts-font middle">Antwort D</a>
+		<a onclick="answer(c);" class="button hogwarts-font middle">Antwort C</a>
+		<a onclick="answer(d);" class="button special hogwarts-font middle">Antwort D</a>
 	</span>
 </body>
 <!--42> I<3You <-->
