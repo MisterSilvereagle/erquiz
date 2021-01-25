@@ -6,19 +6,37 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
 	<meta charset="utf-8">
 	<title>
-		𝔈𝔦𝔫 𝔨𝔩𝔢𝔦𝔫𝔢𝔰 𝔔𝔲𝔦𝔷 𝔳𝔬𝔫 𝕰𝖒𝖒𝖆 𝕽𝖚𝖈𝖐 | Frage 1
+		𝔈𝔦𝔫 𝔨𝔩𝔢𝔦𝔫𝔢𝔰 𝔔𝔲𝔦𝔷 𝔳𝔬𝔫 𝕰𝖒𝖒𝖆 𝕽𝖚𝖈𝖐 | Frage 3
 	</title>
 </head>
 <body>
 	<script type="text/javascript">
+        // Get vars function.
+        function getUrlVars()
+        {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++)
+            {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+
+        // Get vars.
+        var first = getUrlVars()["1"];
+        var second = getUrlVars()["2"];
+
         function answer(ans)
         {
-        	window.open("../q2?1="+arguments[0]+"","_self");
+        	window.open("../q4?1="+first+"&2="+second+"&3="+arguments[0]+"","_self");
         }
-	</script>
+    </script>
 	<span class="centered hogwarts-font red-color middle">
 		<h1>
-			Harry-Potter-Quiz - Frage 1
+			Harry-Potter-Quiz - Frage 4
 		</h1>
 		<a onclick="answer('a');" class="button special hogwarts-font middle">Antwort A</a>
 		<a onclick="answer('b');" class="button hogwarts-font middle">Antwort B</a>
@@ -28,4 +46,4 @@
 	</span>
 </body>
 <!--42> I<3You <-->
-</html>	
+</html>
