@@ -213,6 +213,10 @@ button.special:active,
 	color: #aaaaaa;
 }
 
+.red-color {
+	color: #ff6961;
+}
+
 .middle {
     text-align: center;
     vertical-align: middle;
