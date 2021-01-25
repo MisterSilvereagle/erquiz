@@ -366,4 +366,5 @@ svg {
 .noblock {
 	display: inline-block;
 	vertical-align: middle;
+	height: inherit;
 }
