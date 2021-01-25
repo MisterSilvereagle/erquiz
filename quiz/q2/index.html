@@ -10,21 +10,8 @@
 	</title>
 </head>
 <body>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 	<script type="text/javascript">
-        // Get vars function.
-        function getUrlVars()
-        {
-            var vars = [], hash;
-            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-            for(var i = 0; i < hashes.length; i++)
-            {
-                hash = hashes[i].split('=');
-                vars.push(hash[0]);
-                vars[hash[0]] = hash[1];
-            }
-            return vars;
-        }
-
         // Get vars.
         var first = getUrlVars()["1"];
 
@@ -45,6 +32,9 @@
 		<h1 class="red-color">
 			Harry-Potter-Quiz - Frage 2
 		</h1>
+        <h2 class="red-color balsamiq-font two-em">
+            Lorem ipsum für Frage 2
+        </h2>
 		<a onclick="answer('a');" class="button special hogwarts-font middle">Antwort A</a>
 		<a onclick="answer('b');" class="button hogwarts-font middle">Antwort B</a>
 		<br><br>
