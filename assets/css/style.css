@@ -340,3 +340,25 @@ svg {
 .back-box {
 	background-color: rgba(0,0,0,0.5);
 }
+
+.img {
+	height: 50px;
+}
+
+.home {
+	vertical-align: middle;
+	font-size: 2em;
+}
+
+.nolink {
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+.nolink:hover {
+	color: #505050;
+}
+
+.noblock {
+	display: inline-block;
+}
